@@ -13,13 +13,10 @@ public class GUI implements ActionListener{
 	
 	int count = 0;
 	JLabel label;
-	JFrame frame;
-	JPanel panel;
 	
 	public GUI() {
 		
-		frame = new JFrame();
-		
+		JFrame frame = new JFrame();
 		JButton button = new JButton("Click here");
 		button.addActionListener(this);
 		
@@ -27,7 +24,7 @@ public class GUI implements ActionListener{
 	     label = new JLabel("Number of clicks: 0")
 		
 		
-		panel = new JPanel();
+		JPanel panel = new JPanel();
 		
 		panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
 		panel.setLayout(new GridLayout(0, 1));
