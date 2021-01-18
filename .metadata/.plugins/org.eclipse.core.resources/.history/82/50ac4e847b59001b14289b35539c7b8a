@@ -12,7 +12,6 @@ import javax.swing.JPanel;
 public class GUI implements ActionListener{
 	
 	int count = 0;
-	JLabel label;
 	
 	public GUI() {
 		
@@ -21,7 +20,7 @@ public class GUI implements ActionListener{
 		button.addActionListener(this);
 		
 		
-	     label = new JLabel("Number of clicks: 0")
+		JLabel label = new JLabel("Number of clicks: 0")
 		
 		
 		JPanel panel = new JPanel();
