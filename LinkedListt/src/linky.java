@@ -7,6 +7,9 @@ public class linky {
 		
 		linky.add("Rob");
 		linky.add("Alex");
+		linky.add("Dennis");
+		
+		System.out.println(linky);
 
 	}
 
